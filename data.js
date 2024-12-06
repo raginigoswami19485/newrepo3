@@ -54,9 +54,42 @@
 // console.log(a)
 //     console.log("hello word")
 
+ 
+// what is hosting is in js varble in stay on top;
+// just like
+// var a;
+// var a=7;
+// console.log(a)
 
 
+// window.alert("hello, welcome")
+// let show=window.prompt("enter your name")
+
+// console.log(show);
+  // let show1=parseInt(window.prompt("enter 1"))
+
+  // let show2=parseInt(window.prompt("enter 2"))
+
+  // window.alert(show1 - show2)
+
+  // window.alert(show1 * show2)
+
+  // window.alert(show1 % show2)
+
+  // window.alert(show1 + show2)
+
+  // window.alert(show1 / show2)
+
+
+// 
+let show1=window.prompt(" do you like wibside say yes")
+
+ if("yes"==show1){
+  alert("thanks")
+ }
+else{
+  alert("sorry")
 }
 
-
+}
  okk(); 
