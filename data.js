@@ -82,14 +82,27 @@
 
 
 // 
-let show1=window.prompt(" do you like wibside say yes")
+// let show1=window.prompt(" do you like wibside say yes")
 
- if("yes"==show1){
-  alert("thanks")
- }
-else{
-  alert("sorry")
-}
+//  if("yes"==show1){
+//   alert("thanks")
+//  }
+// else{
+//   alert("sorry")
+// }
+
+// let window ("enter your no.")
+// if(33>=pass)
+//  alert("pass")
+// else{
+//   alert("pass")
+// }
+
+
+
+
+
+
 
 }
  okk(); 
