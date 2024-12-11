@@ -1,11 +1,6 @@
 function yoyo(){
 
-
-
-
-
-
-let text="hello ragini i m from bhopal";
+// let text="hello ragini i m from bhopal";
 let text2="heloo" ;
 // alert(text.length)
 // document.write(text.length) to print in body
@@ -17,15 +12,31 @@ let text2="heloo" ;
 
 
 
-
-
-
-
-
-
-
-
-
+         
 
 }
 yoyo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
