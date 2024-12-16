@@ -68,12 +68,14 @@ function rag(){
 // else{
 //     console.log("child")
 // }
+//  for(let i=12;i<=10;i++){
+//     alert(i)
+//  }
+
  for(let i=12;i<=10;i++){
-    alert(i)
- }
-
-
-
+   alert(i)
+}
+ 
 }
 rag();
 
