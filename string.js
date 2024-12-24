@@ -108,13 +108,38 @@
 // }
 
 
-let stu1= { name:"ragini", city:"bhopal"}
+// let stu1= { name:"ragini", city:"bhopal"}
 
-let stu2={ class:12,up:40}
+// let stu2={ class:12,up:40}
 
-const student={...stu1,...stu2}
+// let student={...stu1,...stu2,}
+// console.log(student)
+
+// let sub1={
+//   name:ragini,
+//   city:bhopal,
+// }
+// let obj2={
+//   age:21,
+//   from:up,
+// }
+
+// let object={...sub1,...obj2,}
+// console.log(object)
 
 
+const go=()=>{
 
+   let name=document.querySelector("#impname").value;
+   let pass=document.querySelector("imppass").value;
 
+   let errorname=document.querySelector("#errorname")
+   let errorpass=document.querySelector("#errorpass")
+ 
+if(name===""){
+    // let errorname=document.querySelector("#ragini")
+    // let errorpass=document.querySelector("#raginii")
+  errorname
+}
 
+}
