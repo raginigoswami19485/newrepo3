@@ -83,8 +83,8 @@
 // console.log("hello")
 // full name ="hJHGJ";
 // console.log(full name);
-// console.log("kutti")
-// console.log("hai")
+// console.log("")
+// console.log("")
 
 
 // fullname ="hello ragini";
@@ -129,17 +129,48 @@
 
 
 const go=()=>{
+// array of object
 
-   let name=document.querySelector("#impname").value;
-   let pass=document.querySelector("imppass").value;
+// let student=[
+//    {
+//       name:"ragini",
+//       age: 20
+//    },
+//    {
+//       name:"raj",
+//       age:22
+//    }]
+//   student.forEach((e)=>
+//   {
+//    console.log(e.age+2);
+//   })
 
-   let errorname=document.querySelector("#errorname")
-   let errorpass=document.querySelector("#errorpass")
- 
-if(name===""){
-    // let errorname=document.querySelector("#ragini")
-    // let errorpass=document.querySelector("#raginii")
-  errorname
+// 2 tupe of funtion
+// 1> function num(){}
+// 2>let num=()=>{}
+// Anonymus
+// 3>let hii=function();
+// {
+// console.log("anonymus funtion")
+// }
+// hii();
+
+// /speci
+
+// [IIFE Immediately Invoked Function Expression]
+
+   // let newarr=student.map((e)=>{
+   //    return e.age+1;  
+   //  })
+   // console.log(newarr);
 }
 
-}
+// COLOGER PADNA H
+
+
+
+
+
+
+
+
