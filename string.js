@@ -128,8 +128,7 @@
 // console.log(object)
 
 
-const go=()=>{
-// array of object
+// // array of object
 
 // let student=[
 //    {
@@ -163,10 +162,29 @@ const go=()=>{
    //    return e.age+1;  
    //  })
    // console.log(newarr);
-}
 
-// COLOGER PADNA H
 
+// Closure padana h
+
+
+// const go=()=>{
+   let student=[
+
+      { name:"ragini", age: 20, place:"bhopal"},
+      {name:"raj", age:22, place:"bhopal"},
+      { name:"divya",age:25,place:"bhopal"}
+
+   ]
+   student.forEach((e)=>{
+let output=document.querySelector("#done")
+output.innerHTML+=
+     <div>
+   <table>
+      <thead></thead>
+      <tbody></tbody>
+   </table>
+   </div>  
+   })
 
 
 
