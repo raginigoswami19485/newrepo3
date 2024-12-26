@@ -162,33 +162,88 @@
    //    return e.age+1;  
    //  })
    // console.log(newarr);
-
-
 // Closure padana h
-
-
 // const go=()=>{
-   let student=[
+//    let student=[
 
-      { name:"ragini", age: 20, place:"bhopal"},
-      {name:"raj", age:22, place:"bhopal"},
-      { name:"divya",age:25,place:"bhopal"}
+//       { name:"ragini", age: 20, place:"bhopal"},
+//       {name:"raj", age:22, place:"bhopal"},
+//       { name:"divya",age:25,place:"bhopal"}
 
-   ]
-   student.forEach((e)=>{
-let output=document.querySelector("#done")
-output.innerHTML+=
-     <div>
-   <table>
-      <thead></thead>
-      <tbody></tbody>
-   </table>
-   </div>  
-   })
-
-
+//    ]
+//    student.forEach((e)=>{
+// let output=document.querySelector("#done")
+// output.innerHTML+=
+//      <div>
+//    <table>
+//       <thead></thead>
+//       <tbody></tbody>
+//    </table>
+//    </div>  
+//    })
 
 
+// let a=89;
+// let b=90;
+// let c=76;
+// console.log("a+b=",a+b)
+
+
+// let a=5;
+// let b=8;
+// console.log("!(5<8)=",(a<b));
+
+// conditional statement
+// let age=12;
+// if(age>18){
+//    console.log("you can vate");
+// }
+// else{
+//    console.log("you can not vote")
+// } 
+
+// conditional statement
+{
+
+let mode="light";
+let color;
+if(mode==="drack"){
+   color="black";
+}
+if(mode==="light"){
+   color="white";
+}
+console.log(color);
+
+}
+
+{
+let num =20;
+if(num%2==0){
+   console.log("even");
+}
+else{
+   console.log("add");
+}
+
+}
+
+{
+   let age=8715;
+   if(age<=15){
+      console.log("childe")
+   }
+   else if(age>=70){
+      console.log("old")
+   }
+   else{
+      console.log("middile-age")
+   }
+}
+
+{
+   
+}
 
 
 
