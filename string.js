@@ -163,25 +163,29 @@
    //  })
    // console.log(newarr);
 // Closure padana h
-// const go=()=>{
-//    let student=[
+const go=()=>{
+   let student=[
 
-//       { name:"ragini", age: 20, place:"bhopal"},
-//       {name:"raj", age:22, place:"bhopal"},
-//       { name:"divya",age:25,place:"bhopal"}
+      { name:"ragini", age: 20, place:"bhopal"},
+      {name:"raj", age:22, place:"bhopal"},
+      { name:"divya",age:25,place:"bhopal"}
 
-//    ]
-//    student.forEach((e)=>{
-// let output=document.querySelector("#done")
-// output.innerHTML+=
-//      <div>
-//    <table>
-//       <thead></thead>
-//       <tbody></tbody>
-//    </table>
-//    </div>  
-//    })
+   ]
+   student.forEach((e)=>{
+let output=document.querySelector("#done")
+output.innerHTML+=`
+    
+      <tr>
+        <td>${e.name}</td>
+  <td>${e.age}</td>
+    <td>${e.place}</td>
+      </tr>
+      `
+   
+   })
+}
 
+go()
 
 // let a=89;
 // let b=90;
@@ -202,48 +206,128 @@
 //    console.log("you can not vote")
 // } 
 
-// conditional statement
-{
+// conditional statement if else strat
+// {
 
-let mode="light";
-let color;
-if(mode==="drack"){
-   color="black";
-}
-if(mode==="light"){
-   color="white";
-}
-console.log(color);
+// let mode="light";
+// let color;
+// if(mode==="drack"){
+//    color="black";
+// }
+// if(mode==="light"){
+//    color="white";
+// }
+// console.log(color);
 
-}
+// }
 
-{
-let num =20;
-if(num%2==0){
-   console.log("even");
-}
-else{
-   console.log("add");
-}
+// {
+// let num =20;
+// if(num%2==0){
+//    console.log("even");
+// }
+// else{
+//    console.log("add");
+// }
 
-}
+// }
 
-{
-   let age=8715;
-   if(age<=15){
-      console.log("childe")
-   }
-   else if(age>=70){
-      console.log("old")
-   }
-   else{
-      console.log("middile-age")
-   }
-}
+// {
+//    let age=8715;
+//    if(age<=15){
+//       console.log("childe")
+//    }
+//    else if(age>=70){
+//       console.log("old")
+//    }
+//    else{
+//       console.log("middile-age")
+//    }
+// }
 
-{
-   
-}
+// {
+//    let age=12;
+//     let result= age>=18?"adult": "not adult";
+//    //  alert(result);
+//     console.log(result)
+
+// }
+// // {
+// //    let name = prompt("hello what is your name");
+// //    console.log(name);
+// // }
+
+// {
+//    let num=prompt("give you value");
+//    if(num%5==0){
+//       console.log(num,"multiple of 5");
+//    }
+//    else{
+//       console.log(num,"this num is not multiple of 5")
+//    }
+// }
+// {
+//    let num=prompt("give you marks");
+// if(num>=80 && num<=100){
+//    console.log("your result=","A");
+// }
+// else if(num>=70 && num<=89){
+//    console.log("your result=","B ");
+// }
+// else if(num>=60 && num<=69){
+//    console.log("your result=","c");
+// }
+// else if(num>=50 && num<=59){
+//    console.log("your result=","d");
+// }
+// else if(num>=0 && num<=40){
+//    console.log("your result=","fail");
+// }
+// else{
+//    console.log("involide num.");
+// }
+// } 
 
 
+// compalete if else statemnt
 
+// strat loop==>>
+
+// for(let i=1;i<=1000;i++){
+//    console.log("khushboo");
+// }
+// {
+// let sum = 0;
+// for(let i=1;i<=5;i++){
+//    sum = sum + i;
+// }
+// console.log(sum,"sum ki value ")
+//    console.log("loop has ended");
+// }
+
+
+// {
+//    for(let i=1;i<=5;i++){
+//    console.log("i=>",i);
+// }
+// }
+// {
+//    for(let i=1;i<=5;i++){
+
+//    }
+// }
+// {
+//    let i=1;
+//    while(i<=5){
+//       console.log("i=",i)
+//       i++;
+//    }
+// }
+// {
+//    let i=1
+//    while(i<=15){
+//       console.log("kushuboo")
+//    }
+// }
+
+prompt
