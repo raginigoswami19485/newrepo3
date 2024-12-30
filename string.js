@@ -334,11 +334,16 @@
    //    alert(num+"this num is not multiple of 5")
    // }
 
-
-
-
-
-
-
-
-   
+// 
+let size='m';
+if(size=='xl'){
+   alert("price 250")}
+   else if(size=='l'){
+alert("price 200")
+   }
+   else if(size=='m'){
+      alert("price 100")
+   }
+   else if(size=='s'){
+      alert("price 50")
+   }
