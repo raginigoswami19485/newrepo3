@@ -88,11 +88,6 @@
 
 
 // fullname ="hello ragini";
-
-
-
-
-
 // age=78;
 // console.log(age);
 // {
@@ -162,30 +157,31 @@
    //    return e.age+1;  
    //  })
    // console.log(newarr);
-// Closure padana h
-const go=()=>{
-   let student=[
 
-      { name:"ragini", age: 20, place:"bhopal"},
-      {name:"raj", age:22, place:"bhopal"},
-      { name:"divya",age:25,place:"bhopal"}
+//                       Closure padana h
+// const go=()=>{
+//    let student=[
 
-   ]
-   student.forEach((e)=>{
-let output=document.querySelector("#done")
-output.innerHTML+=`
+//       { name:"ragini", age: 20, place:"bhopal"},
+//       {name:"raj", age:22, place:"bhopal"},
+//       { name:"divya",age:25,place:"bhopal"}
+
+//    ]
+//    student.forEach((e)=>{
+// let output=document.querySelector("#done")
+// output.innerHTML+=`
     
-      <tr>
-        <td>${e.name}</td>
-  <td>${e.age}</td>
-    <td>${e.place}</td>
-      </tr>
-      `
+//       <tr>
+//         <td>${e.name}</td>
+//   <td>${e.age}</td>
+//     <td>${e.place}</td>
+//       </tr>
+//       `
    
-   })
-}
+//    })
+// }
 
-go()
+// go()
 
 // let a=89;
 // let b=90;
@@ -231,7 +227,7 @@ go()
 // }
 
 // }
-
+  
 // {
 //    let age=8715;
 //    if(age<=15){
@@ -258,7 +254,7 @@ go()
 // // }
 
 // {
-//    let num=prompt("give you value");
+   // let num=prompt("give you value");
 //    if(num%5==0){
 //       console.log(num,"multiple of 5");
 //    }
@@ -330,4 +326,19 @@ go()
 //    }
 // }
 
-prompt
+   // let num=prompt("give you value");
+   // if(num%5==0){
+   //   alert(num+"multiple of 5");
+   // }
+   // else{
+   //    alert(num+"this num is not multiple of 5")
+   // }
+
+
+
+
+
+
+
+
+   

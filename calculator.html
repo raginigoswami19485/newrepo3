@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .display{
+            background-color: rgb(244, 244, 245);
+            font-size:25px;
+        }
+        table{
+            background-color: rgba(216, 170, 100, 0.123);
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+        }
+       
+        td{
+            font-size: 30px;
+            height: 15px;
+            width: 15px;
+            border-radius: 15px;
+        }
+        h2{
+            font-size: 50px;
+            font-style: italic;
+            color: rgb(3, 3, 3);
+            padding-left: 43%;
+            margin-top: 60px;
+        }
+        body{
+            background-color: rgb(153, 183, 247);
+        }
+    </style>
+</head>
+<body>
+    <h2>calculator</h2>
+    <table  border="15" align="center"  cellspacing="25px" cellpadding="10px">
+        <tr id="">
+            <td class="display"colspan="4"></td>
+        </tr>
+        <tr>
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('4')">4</td>
+        </tr>
+
+        <tr>
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+        </tr>     
+        
+        <tr>
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('00')">00</td>
+            <td onclick="cal('+')">+</td>
+        </tr>
+
+        <tr>
+            
+            <td onclick="cal('%')">%</td>
+            <td onclick="cal('-')">-</td>
+            <td onclick="cal('*')">*</td>
+            <td onclick="cal('/')">/</td>
+        </tr>
+        
+        <tr>
+            <td onclick="result()">enter</td>
+            <td onclick="ac()">ac</td>
+            <td onclick="del()" >del</td>
+            <td onclick="cal('.')">.</td>
+        </tr>
+        
+    </table>
+<script src="calculator.js"></script>
+</body>
+</html>
