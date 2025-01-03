@@ -83,8 +83,6 @@
 // console.log("hello")
 // full name ="hJHGJ";
 // console.log(full name);
-// console.log("")
-// console.log("")
 
 
 // fullname ="hello ragini";
@@ -335,15 +333,156 @@
    // }
 
 // 
-let size='m';
-if(size=='xl'){
-   alert("price 250")}
-   else if(size=='l'){
-alert("price 200")
-   }
-   else if(size=='m'){
-      alert("price 100")
-   }
-   else if(size=='s'){
-      alert("price 50")
-   }
+// let size='m';
+// if(size=='xl'){
+//    alert("price 250")}
+//    else if(size=='l'){
+// alert("price 200")
+//    }
+//    else if(size=='m'){
+//       alert("price 100")
+//    }(
+//    else if(size=='s'){
+//       alert("price 50")
+//    }
+
+
+// let day=9;
+// switch(day){
+//    case 1:
+//    console.log("monday");
+//    break;
+//    case 2:
+//    console.log("tuesday");
+//    break;
+//    case 3:  
+//     console.log("wednesday");
+//    break;
+//    case 4:  
+//     console.log("thursday");
+//    break;
+//    case 5:  
+//     console.log("friday");
+//    break;
+//    case 6:  
+//    console.log("saturday");
+//     break;
+//     case 7:  
+//     console.log("sunday");
+//    break;
+//    default:
+//       console.log("undifin")
+
+
+// }
+
+
+// let num1=32;
+// let num2=47852;
+// if((num1%10)==(num2%10))
+//    {
+//       console.log("numbers have the same lastdigit which is",num1%10);
+//    }
+// else
+// {
+//    console.log("numbers don't have the same last digit");
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// 1 millisecond is equal to 1 second
+
+//let startt=()=>(
+
+ //   setTimeout(()=>{
+ //       console.log("I Am Running");  
+  //  },2000)   // takes 2 secdond to show the result
+// )
+
+//   js is syncronus language=====
+
+
+// console.log("Starting");
+
+// setTimeout(()=>{
+  //  console.log("I Am Running");     // it delays to give result   // it makes js ansycronus
+// },2000)
+
+// console.log("Ending");
+
+
+
+//let stt=()=>{
+
+ //   let des=document.querySelector("#red")
+    
+ //   setTimeout(()=>{
+ //    des.style.backgroundColor="red"
+  //  },2000)
+// set interval
+
+  //let startt=()=>{
+  
+   //   setInterval(() => {
+   //       console.log("I AM Running");
+   //   },3000);   // works after every 3 seconds
+      
+  // }
+  
+  
+  // counter ++ =======
+  
+  // let startt=()=>{
+  
+  // let counter=0;
+  // setInterval(()=>{
+    //  console.log(counter++)
+  // },2000)
+  
+  // }
+  
+  //  counter in home screeen  plus number
+  
+  //  let incr=()=>{
+  //     let counter=0;
+  //     setInterval(()=>{
+
+
+
+
+//   date in js
+
+
+let time=new Date();
+console.log(time.toLocaleString());
+let time1=time.getFullYear()
+
+console.log(time1);
+
+
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+for (let i = 0; i <= 1; i++) {
+  console.log( days);
+}
+
+let startt=()=>{
+   let page=document.querySelector("#show")
+   let timess=new Date()
+   page.innerHTML=timess.getFullYear()   
+}
+
+
+// how to make alram
+
+  

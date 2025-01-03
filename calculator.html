@@ -32,6 +32,10 @@
         body{
             background-color: rgb(153, 183, 247);
         }
+        #display{
+            border: 2px;;
+        }
+
     </style>
 </head>
 <body>
@@ -47,23 +51,56 @@
             <td onclick="cal('4')">4</td>
         </tr>
 
-        <tr>git 
+        
+            <tr>
+                <td onclick="cal('5')">5</td>
+                <td onclick="cal('6')">6</td>
+                <td onclick="cal('7')">7</td>
+                <td onclick="cal('8')">8</td>
+            </tr>
+            <tr>
+            
+                <td onclick="cal('9')">9</td>
+                <td onclick="cal('0')">0</td>
+                <td onclick="cal('+')">+</td>
+                <td onclick="cal('.')">.</td>
+            </tr>
         <tr>
             
             <td onclick="cal('%')">%</td>
             <td onclick="cal('-')">-</td>
             <td onclick="cal('*')">*</td>
             <td onclick="cal('/')">/</td>
-        </tr>
+        </tr>  
         
         <tr>
             <td onclick="result()">enter</td>
             <td onclick="ac()">ac</td>
             <td onclick="del()" >del</td>
-            <td onclick="cal('.')">.</td>
+            <td onclick="cal('=')">=</td>
         </tr>
         
     </table>
+    <!-- digital clock -->
+<h1> Alarm</h1>
+
+
+
+
+<h2 id="display"></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="calculator.js"></script>
 </body>
 </html>
