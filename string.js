@@ -12,7 +12,7 @@
 // // document.write(a)// map   
 // // let ans=a.map(function(num){
 // //     return num*2
-// // })
+// // })    
 // // document.write(ans);
 // // }
 // function rag(){
@@ -463,26 +463,78 @@
 //   date in js
 
 
-let time=new Date();
-console.log(time.toLocaleString());
-let time1=time.getFullYear()
+// let time=new Date();
+// console.log(time.toLocaleString());
+// let time1=time.getFullYear()
 
-console.log(time1);
+// console.log(time1);
 
 
-let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-for (let i = 0; i <= 1; i++) {
-  console.log( days);
-}
+// for (let i = 0; i <= 1; i++) {
+//   console.log( days);
+// }
 
-let startt=()=>{
-   let page=document.querySelector("#show")
-   let timess=new Date()
-   page.innerHTML=timess.getFullYear()   
-}
+// let startt=()=>{
+//    let page=document.querySelector("#show")
+//    let timess=new Date()
+//    page.innerHTML=timess.getFullYear()   
+// }
 
 
 // how to make alram
 
-  
+  // let alaram=()=>{
+  //  let inp=document.querySelector("#zone").value;
+  //  let  show=document.querySelector("#display")
+
+  //  let inter=setInterval(()=>{
+  //  let time=new Date()
+  //  let alaramtime=`${time.getHours().toString().padStart(2,"0")}
+  //  : ${time.getMinutes().toString.padStart(2,"0")}`
+  //  if(alaramtime===inp){
+  //   show.innerHTML="Alaram is runging"
+  //  }
+  //  else{
+  //   show.innerHTML="set alaram"
+  //  }
+  //  },1000)
+  // }
+//   let alarm = () => {
+//     let inp = document.querySelector("#zone").value; // Use .value not .Value
+//     let show = document.querySelector("#display");
+
+//     let interval = setInterval(() => {
+//         let time = new Date();
+//         let alarmTime = `${time.getHours().toString().padStart(2,"0")}:${time.getMinutes().toString().padStart(2,"0")}`;
+
+//         // Use '===' for comparison
+//         if(alarmTime === inp){ 
+//             show.innerHTML = "Alarm is ringing!";
+//         } else {
+//             show.innerHTML = "Set alarm";
+//         }
+//     }, 1000);
+// };
+
+let alarm = () => {
+  let inp = document.querySelector("#zone").value; // Get the time from input field
+  let show = document.querySelector("#display");
+
+  // Interval to check every second
+  let interval = setInterval(() => {
+      let time = new Date();
+      let alarmTime = `${time.getHours().toString().padStart(2,"0")}:${time.getMinutes().toString().padStart(2,"0")}`; // Get current time
+
+      // Compare the current time to the alarm time
+      if(alarmTime === inp){ 
+          show.innerHTML = "Alarm is ringing!"; // Display alarm message when times match
+          clearInterval(interval); // Stop checking after the alarm goes off
+      } else {
+          show.innerHTML = "Set alarm"; // Display if no alarm is set or if time hasn't reached
+      }
+  }, 1000); // Check every second
+};
+document.querySelector("#zone").addEventListener("change", alarm);
+

@@ -49,15 +49,17 @@
     let time= new Date()
     let alarmtime=`${time.getHours().toString().padStart(2,"0")}:${time.getMinutes().toString().padStart(2,"0")}`
  if(alarmtime==inp){
-    show.innerHTML="alaram in runging"
+    show.innerHTML="alaram in runging";
     document.querySelector("#aud").play()
+
+
     setTimeout(()=>{
         document.querySelector("#aud").pause()
-
+        clearInterval(inter)
     },6000)
 }
     else{
-        show.innerHTML="set alaram";
-     }
+      war.innerHTML="Set Alara";
+    }
  },1000)
  }

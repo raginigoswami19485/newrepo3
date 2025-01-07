@@ -30,7 +30,7 @@
 
 // function okk(){
 
-let fruits=["Apple","Mango","Grapes","Banana","ajay","bharti"]
+// let fruits=["Apple","Mango","Grapes","Banana","ajay","bharti"]
 
 // let ans=fruits.length;
 // document.write(ans) ; 
@@ -40,8 +40,107 @@ let fruits=["Apple","Mango","Grapes","Banana","ajay","bharti"]
 //  document.write(ans) //it stores pop means last one which it removes
 //  document.write(fruits) //it store what remain after pop
 
-let ans=fruits.push("Orange","Avocadra","ragini","goswami")
+// let ans=fruits.push("Orange","Avocadra","ragini","goswami")
 //  document.write(ans) // it has ("Orange","Avocadra")
- document.write(fruits) //after push "Apple","Mango","Grapes","Banana" "Orange","Avocadra"
+//  document.write(fruits) //after push "Apple","Mango","Grapes","Banana" "Orange","Avocadra"
 
 
+
+
+// let store="";
+// let data=()=>{
+//      let name=document.querySelector("#name").value
+//      let contect=document.querySelector("#contect").value
+//      let gmail=document.querySelector("#gmail").volue
+// let pass= document.querySelector("#pass").value
+// let cpass=document.querySelector("#cpass").volue
+
+// if(name===""){
+//     alert("please fill your name");
+//     document.querySelector("#name").focus();
+//     return false
+// }
+// if(gmail==""){
+//     alert("please enter your gmail");
+//     document.querySelector("#gmail").focus();
+//     return false
+// } }
+
+
+
+let data = () => {
+
+
+    let name = document.querySelector("#name").value;
+    let contect = document.querySelector("#contect").value;
+    let gmail = document.querySelector("#gmail").value; 
+    let pass = document.querySelector("#pass").value;
+    let cpass = document.querySelector("#cpass").value; 
+
+    // Validate name
+    if (name === "") {               
+        alert("Please fill your name");
+        document.querySelector("#name").focus();
+        return false;
+    }
+
+    // Validate contact number
+    if (contect === "") {
+        alert("Please fill your contact number");
+        document.querySelector("#contect").focus();
+        return false;
+    }
+
+    // Validate gmail
+    
+    if (gmail === "") {
+        alert("Please enter your gmail");
+        document.querySelector("#gmail").focus();
+        return false;
+    }
+    if(!(gmail.includes("@"))){
+        alert("your email is not correct please fill @");
+        document.querySelector("#gmail").focus();
+        return false;
+    }
+    // if(!(gmail.includes("@"))){
+    //     alert("add @ in email")
+    //     document.querySelector("#email").focus()
+    //     return false
+    // }
+    // Validate password
+    if (pass === "") {
+        alert("Please enter your password");
+        document.querySelector("#pass").focus();
+        return false;
+    }
+
+    if (cpass === "") {
+        alert("Please confirm your password");
+        document.querySelector("#cpass").focus();
+        return false;
+    }       
+    // if(!(pass.match(/[~!@#$%^&*-+]/))){
+    //     alert("please add one special character")
+    //     document.querySelector("#pass").focus()
+    //     return false
+    // }
+    // if(!(pass.match(/[!@#$%^&*+-*/]/))){
+    //     alert("please add one special character");
+    //     document.querySelector("#pass").focus();
+    //     return false;
+    // }
+    if (!(pass.match(/[!@#$%^&*+-*/]/))) {
+        alert("Please add one special character");
+        document.querySelector("#pass").focus();
+        return false;
+    }
+    if(pass!=cpass){
+ alert("mis match pass please check it")
+ document.querySelector("#cpass").focus();
+ return false;
+    }
+    alert("Form Submitted Successfully");
+    return true; 
+}
+   
